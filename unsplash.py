@@ -3,7 +3,7 @@ import os
 import re
 from time import time
 
-class Spider:
+class Spider(object):
 
     def __init__(self,n=10):
         self.headers={
