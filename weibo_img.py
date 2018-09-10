@@ -4,7 +4,7 @@ import aiohttp
 import os
 from time import time
 
-class Spider:
+class Spider(object):
 
     def __init__(self,uid:str):
         self.uid=uid
