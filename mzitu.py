@@ -5,7 +5,7 @@ from pyquery import PyQuery as PQ
 import os
 from time import time
 
-class Spider:
+class Spider(object):
 
     def __init__(self,n=10):
         self.headers = {
